@@ -16,3 +16,10 @@ Bonus points for syncing status and comments.
   
 API endpoints exposed by Jira you can find here:
 https://developer.atlassian.com/cloud/jira/software/rest/
+
+# Solution
+1. Populate src/main/resources/.env file with necessary data
+2. Run application with issue keys in arguments, with following syntax:
+```
+issues=KAN-1,KAN-2,KAN-3,KAN-4,KAN-5
+```
